@@ -1,1 +1,1 @@
-# edX-Binary-Classification
+# Binary-Classification
