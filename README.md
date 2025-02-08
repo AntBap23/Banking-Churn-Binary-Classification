@@ -98,7 +98,6 @@ The final model achieved the following performance metrics:
 - **Recall**: *e.g., 75%*
 - **F1-Score**: *e.g., 77%*
 
-*Note: Replace the placeholder metrics with actual results from your model.*
 
 ## Contributing
 
