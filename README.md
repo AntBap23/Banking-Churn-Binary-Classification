@@ -1,110 +1,98 @@
-# Banking Churn Binary Classification
 
-This project focuses on predicting customer churn in the banking sector using binary classification techniques. By analyzing customer data, the model aims to identify clients who are likely to leave the bank, enabling proactive retention strategies.
+# 🏦 Banking Churn Binary Classification
 
-## Table of Contents
+![GitHub Repo Stars](https://img.shields.io/github/stars/AntBap23/Banking-Churn-Binary-Classification?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/AntBap23/Banking-Churn-Binary-Classification?style=social)
+![License](https://img.shields.io/github/license/AntBap23/Banking-Churn-Binary-Classification)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/AntBap23/Banking-Churn-Binary-Classification)
 
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Development](#model-development)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+## 📌 Project Overview
 
-## Project Overview
+This project focuses on predicting customer churn in the banking sector using binary classification techniques. By analyzing customer data, we aim to identify patterns that indicate whether a customer is likely to leave the bank.
 
-Customer churn is a significant concern in the banking industry, as retaining existing customers is often more cost-effective than acquiring new ones. This project utilizes machine learning to predict the likelihood of a customer leaving the bank, allowing for targeted interventions.
+---
 
-## Dataset
+## 📂 Dataset
 
-The dataset used in this project is `bank.csv`, which contains various features related to customer demographics, account information, and transaction history. Key features include:
+- **Source:** [bank.csv](./bank.csv)
+- **Description:** The dataset contains various features related to customer demographics and banking activities.
 
-- **Customer ID**: Unique identifier for each customer
-- **Age**: Customer's age
-- **Gender**: Customer's gender
-- **Balance**: Account balance
-- **Products**: Number of products held by the customer
-- **CreditScore**: Customer's credit score
-- **IsActiveMember**: Whether the customer is an active member
-- **EstimatedSalary**: Customer's estimated salary
-- **Exited**: Target variable indicating if the customer has churned (1) or not (0)
+---
 
-## Installation
+## 📊 Key Features
 
-To run this project locally, follow these steps:
+- **Data Preprocessing:** Handling missing values, encoding categorical variables, and feature scaling.
+- **Modeling:** Implementation of various binary classification algorithms to predict customer churn.
+- **Evaluation:** Assessing model performance using metrics such as accuracy, precision, recall, and F1-score.
 
-1. **Clone the repository**:
+---
 
-   ```bash
-   git clone https://github.com/AntBap23/Banking-Churn-Binary-Classification.git
-   cd Banking-Churn-Binary-Classification
-   ```
+## 🛠️ Technologies Used
 
-2. **Set up a virtual environment** (optional but recommended):
+| Technology        | Purpose             |
+|-------------------|---------------------|
+| 🐍 Python         | Core Programming    |
+| 📊 Pandas         | Data Manipulation   |
+| 📈 Scikit-learn   | Machine Learning    |
+| 📊 Matplotlib     | Data Visualization  |
+| 📓 Jupyter Notebook | Development Environment |
 
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows, use venv\Scripts\activate
-   ```
+---
 
-3. **Install the required dependencies**:
+## 🚀 Installation & Usage
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 📥 1. Clone the Repository
 
-   *Note: Ensure that `requirements.txt` is available in the repository with all necessary dependencies listed.*
+```bash
+git clone https://github.com/AntBap23/Banking-Churn-Binary-Classification.git
+cd Banking-Churn-Binary-Classification
+```
 
-## Usage
+### 🔧 2. Install Dependencies
 
-The primary analysis and model development are conducted in the Jupyter Notebook `binary_classification_model.ipynb`. To run the notebook:
+```bash
+pip install -r requirements.txt
+```
 
-1. **Launch Jupyter Notebook**:
+### 🏃 3. Run the Jupyter Notebook
 
-   ```bash
-   jupyter notebook
-   ```
+```bash
+jupyter notebook binary_classification_model.ipynb
+```
 
-2. **Open** `binary_classification_model.ipynb` and execute the cells sequentially to preprocess the data, train the model, and evaluate its performance.
+---
 
-## Model Development
+## 🎯 Future Enhancements
 
-The project involves the following steps:
+- **Feature Engineering:** Explore additional features to improve model performance.
+- **Hyperparameter Tuning:** Optimize model parameters for better accuracy.
+- **Deployment:** Develop a web application to predict customer churn in real-time.
 
-1. **Data Preprocessing**:
-   - Handling missing values
-   - Encoding categorical variables
-   - Feature scaling
+---
 
-2. **Model Selection**:
-   - Evaluating multiple classification algorithms
-   - Selecting the best-performing model based on evaluation metrics
+## 🤝 Contributing
 
-3. **Model Training**:
-   - Training the selected model on the processed dataset
+We welcome contributions! Please follow these steps:
 
-4. **Evaluation**:
-   - Assessing model performance using metrics such as accuracy, precision, recall, and F1-score
-   - Analyzing confusion matrix and ROC-AUC curve
+1. **Fork the repository**
+2. **Create a feature branch** (`git checkout -b feature-branch`)
+3. **Commit your changes** (`git commit -m "Added new feature"`)
+4. **Push to GitHub** (`git push origin feature-branch`)
+5. **Submit a Pull Request** 🚀
 
-## Results
+---
 
-The final model achieved the following performance metrics:
+## 📜 License
 
-- **Accuracy**: *e.g., 85%*
-- **Precision**: *e.g., 80%*
-- **Recall**: *e.g., 75%*
-- **F1-Score**: *e.g., 77%*
+This project is open-source under the **MIT License**.
+
+---
+
+## 📬 Contact
+
+**Author:** Anthony Baptiste  
+**GitHub:** [AntBap23](https://github.com/AntBap23)
 
 
-## Contributing
-
-Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
