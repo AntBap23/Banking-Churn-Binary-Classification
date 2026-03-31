@@ -1,0 +1,63 @@
+Features
+
+- CreditScore bin
+    - determine bad,ok,good,great credit score 
+
+- Age bin
+    - see distribution and label age_range 
+
+- country encoding
+    - spain = 1, germany = 2, france = 3
+
+- salary range
+    - low, medium, high salary
+
+- tenure
+ - look at distribution and determine bins for this as Weller
+
+
+- balance 
+    - balance bin for this variable as Well
+
+- Gender
+    - might not be as important but will still implement
+
+
+- IsActiveMember
+    - already binary
+
+
+Target
+ - Exited
+
+
+
+Cleaning / Manipulations that I believe will help data
+
+    - credit score tiers
+    - age buckets 
+    - tenure buckets
+    - balance buckets
+
+ EDA Steps 
+
+ group exited by all variables Below 
+  - Geography
+  - Gender
+  - Tenure
+  - Age : might have to be a range bin 
+  - num products 
+  - IsActiveMember
+  - Balance range
+
+
+Model 
+ - make sure its not unbalanced
+ - if it is fix it
+    - smote
+    - weighted balance
+    - maybe combinations
+    - use f1, recall, etc instead of just accuracy
+
+
+
