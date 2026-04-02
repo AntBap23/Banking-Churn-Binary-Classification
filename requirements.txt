@@ -3,8 +3,9 @@ numpy
 scikit-learn
 matplotlib
 seaborn
-jupyter
+jupyterlab
 notebook
+ipykernel
 xgboost
 lightgbm
 catboost
@@ -12,8 +13,3 @@ mlxtend
 scipy
 statsmodels
 plotly
-plotly-express
-plotly-plotly
-plotly-plotly-express
-plotly-plotly-plotly-express
-

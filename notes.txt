@@ -13,7 +13,7 @@ Features
     - low, medium, high salary
 
 - tenure
- - look at distribution and determine bins for this as Weller
+ - look at distribution and determine bins for this as Well
 
 
 - balance 
